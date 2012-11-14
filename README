@@ -1,0 +1,46 @@
+# Wordpress Bento-Theme #
+
+## Installation Notes ##
+
+### Common Bento Files ###
+
+For local development with out an internet connection get a local version of Bento-Themes common files from http://gitorious.org/opensuse/themes and place theme into your local theme directory.
+Use GIT to check out the repository: git clone git://gitorious.org/opensuse/themes.git
+
+## Used Plugins on opensuse.org ##
+
+In general the following WP-Plugins are currently (2010-04-15) in use:
+
+  Brian's Threaded Comments
+    By Brian Meidell
+    http://meidell.dk/threadedcomments/
+
+  Digg This
+    By Aviran Mordo
+    http://www.aviransplace.com/index.php/digg-this-wordpress-plugin/
+
+  Math Comment Spam Protection
+    By Michael Woehrer
+    http://sw-guide.de/wordpress/plugins/math-comment-spam-protection/
+
+  Recent Comments
+    By Nick Momrik
+    http://mtdewvirus.com/code/wordpress-plugins/
+
+  StatPress
+    By Daniele Lippi 
+    http://www.statpress.org/
+
+  WP-PostRatings
+    By Lester 'GaMerZ' Chan 
+    http://lesterchan.net/portfolio/programming/php/
+  
+At news.opensuse.org are additionally installes:
+
+  Event Calendar
+    By Alex Tingle 
+    http://wpcal.firetree.net/
+
+  Subscribe2
+    By Matthew Robinson
+    http://subscribe2.wordpress.com/
