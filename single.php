@@ -20,9 +20,10 @@
       <div class="share-links">
 	<div class="share-link">
               <a href="http://twitter.com/share" class="twitter-share-button"
-                data-url="<?php echo urlencode(get_permalink()); ?>"
+                data-url="<?php echo get_permalink(); ?>"
                 data-text="openSUSE News: <?php the_title() ?>"
                 data-count="horizontal"
+                data-hashtags="openSUSE"
                 data-via="openSUSE">Tweet</a>
         </div>
         <div class="share-link">

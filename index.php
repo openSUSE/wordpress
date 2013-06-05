@@ -28,10 +28,11 @@
           <div class="share-links">
             <div class="share-link">
               <a href="http://twitter.com/share" class="twitter-share-button"
-	        data-url="<?php echo urlencode(get_permalink()); ?>"
-		data-text="openSUSE News: <?php the_title() ?>"
-	      	data-count="horizontal"
-		data-via="openSUSE">Tweet</a>
+                data-url="<?php echo get_permalink(); ?>"
+                data-text="openSUSE News: <?php the_title() ?>"
+                data-count="horizontal"
+                data-hashtags="openSUSE"
+                data-via="openSUSE">Tweet</a>
             </div>
             <div class="share-link">
               <iframe src="https://www.facebook.com/plugins/like.php?href=<?php echo urlencode(get_permalink()); ?>&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
