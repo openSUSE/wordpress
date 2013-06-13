@@ -19,7 +19,7 @@
         $username = get_the_author_meta('user_login', $user->ID);
         $userdescription = get_the_author_meta('description', $user->ID); ?>
         <div class="author-bio">
-            <?php printf('<a target="_blank" href="http://en.opensuse.org/User:%s"</a><h2>%s</h2>', $username, $user->display_name);
+            <?php printf('<a target="_blank" href="http://en.opensuse.org/User:%s"><h2>%s</h2></a>', $username, $user->display_name);
             if($userdescription != '') {
                 printf('<h4>%s</h4>', $userdescription);}?>
         </div>
