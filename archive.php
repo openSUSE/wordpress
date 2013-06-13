@@ -14,6 +14,14 @@
 
      <?php if (have_posts()) : ?>
 
+     <?php if(is_author()) {
+        $user = get_userdatabylogin(get_query_var('author_name'));
+        $username = get_the_author_meta('user_login', $user->ID); ?>
+        <div class="author-bio">
+            <?php printf('<a target="_blank" href="http://en.opensuse.org/User:%s"</a><h2>%s</h2>', $username, $user->display_name);?>
+        </div>
+      <?php } ?>
+
       <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
       <?php /* If this is a category archive */ if (is_category()) { ?>
       <h2 class="pagetitle">Archive for the &#8216;<?php single_cat_title(); ?>&#8217; Category</h2>
